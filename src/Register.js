@@ -8,7 +8,7 @@ function Register(){
             <br/>
             <input type="text" className="form-control"/>
             <br/>
-            <button className="btn btn-primary">SignUp</button>
+            <button className="btn btn-primary">SignUpPage</button>
         </div>
     )
 }
