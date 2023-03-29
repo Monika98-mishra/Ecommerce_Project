@@ -11,7 +11,7 @@ import UpdateProduct from './UpdateProduct';
 function App() {
   return (
     <div className="App">
-       <BrowserRouter>
+       {/* <BrowserRouter>
         <Header />
         <Routes>
           <Route path="login" element={<Login />}> </Route>
@@ -20,7 +20,8 @@ function App() {
           <Route path="add" element={<AddProduct />}> </Route>
         </Routes>
       </BrowserRouter>
-      
+       */}
+       helo
     </div>
   );
 }
