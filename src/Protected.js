@@ -1,19 +1,19 @@
 import { useState,useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
-import Header from './Header';
-function Login(){
+
+function Login(props){
+
+    let Cmp=props.Cmp;
     useEffect(()=>{
-        if(localStorage.getItem('user-info'))
+        if(!localStorage.getItem('user-info'))
         {
-            navigate('/add')
+            navigate('/register')
         }
     },[])
     const navigate = useNavigate();
-    
     return(
         <div>
-             <Header />
-            <h1>Login Page</h1>
+             <Cmp/>  
         </div>
     )
 }
